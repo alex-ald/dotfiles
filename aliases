@@ -3,6 +3,8 @@ alias vim="nvim"
 alias ll="ls -al"
 alias ln="ln -v"
 alias mkdir="mkdir -p"
+alias less="less -N"
+alias g="git"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'

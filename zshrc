@@ -1,4 +1,8 @@
+########## Variables
+export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
+
 ########## Keychain
+
 # ############################################################################
 # allow $USER to use keys. Only enter once and it will remain enabled till
 # you delete it or reboot the server 
@@ -12,11 +16,6 @@ source "${HOME}/.keychain/$(hostname)-sh"
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
-# load custom executable functions
-#for function in ~/.zsh/functions/*; do
-#  source $function
-#done
 
 ########## Font maps
 for file in ~/.local/share/fonts/*.sh; do

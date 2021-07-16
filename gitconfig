@@ -10,5 +10,6 @@
   co = checkout
   pf = push --force-with-lease
   st = status -sb
+  diffs = diff --staged
 [core]
   autocrlf = input
