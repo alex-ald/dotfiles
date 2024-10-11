@@ -4,7 +4,7 @@
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # List of dotfiles to symlink
-dotfiles=(".bashrc" ".bash_aliases" ".tmux.conf" ".gitconfig")
+dotfiles=(".bashrc" ".bash_aliases" ".tmux.conf" ".gitconfig" ".vimrc")
 
 # Create symlinks
 for file in "${dotfiles[@]}"; do
