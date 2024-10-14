@@ -9,3 +9,5 @@ alias g='git'
 # development
 alias cddev='cd ~/dev'
 
+# remap vim to nvim
+alias vim='nvim'
